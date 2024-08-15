@@ -1,0 +1,231 @@
+body {
+    font-family: Montserrat;
+    margin: 0;
+    
+}
+
+h1 {
+    font-family: "Ubuntu Mono";
+    font-size: 35px;
+}
+
+h2 {
+    font-family: "Nunito Sans";
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    background-color: #EEE2DC;
+    padding: 10px;
+    font-family: Montserrat;
+    margin: 0;
+
+  }
+header h1 {
+    color: #AC3B61;
+    }
+
+h1, nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+nav ul {
+    padding: 0px 40px;
+  }
+  
+nav ul li {
+    display: inline;
+    margin: 10px;}
+
+nav ul li a {
+    text-decoration: None;
+    color: #123C69;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Containers */
+
+.container {
+ border: 2px solid #BAB2B5;
+ padding: 20px 40px 40px 40px;
+ margin: 20px 10%;
+ border-radius: 6px;
+}
+
+/* Colour Sections */
+
+.swatch {
+    display: inline-block;
+    text-align: center;
+    width: 29%;
+    margin: 20px 2px;
+    min-height: 100px;
+    min-width: 135px;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+.coral {
+    background-color: #EDC7B7;
+}
+
+.linen {
+    background-color: #EEE2DC;
+}
+
+.smoky {
+    background-color: #BAB2B5;
+    
+}
+
+.ten {
+    background-color: #123C69;
+    color: #eee;
+}
+
+.mulberry {
+    background-color: #AC3B61;
+    color: #eee;;
+}
+
+/* Fonts Sections */
+
+.font_container {
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align:middle;
+}
+
+.font_label{
+    text-decoration: underline;
+    font-size: 20px;
+    height: 35.2px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.ubuntu_mono {
+    font-family: "Ubuntu Mono";
+}
+
+.nunito_sans {
+    font-family: "Nunito Sans";
+}
+
+
+/* Text Styles Section */
+.text_container {
+    padding: 10px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.text_label {
+    margin: 0;
+}
+
+.text_container ul {
+    padding: 0 15px ;
+}
+
+.text_container ul li {
+    margin: 10px 0;
+}
+/* Buttons – Container */
+
+.btn_container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+/* Buttons - Default */
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 2px;
+    font-size: 15px;
+}
+
+.primary_btn, .secondary_btn {
+    border-radius: 8px;
+}
+
+.secondary_btn {
+    color: #AC3B61;
+    background-color: transparent;
+}
+
+.tertiary_btn {
+    border: None;
+    text-decoration: underline;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.primary_btn.default, .secondary_btn.active{
+    background-color: #AC3B61;
+    color: #EEE;
+}
+
+.primary_btn.default, .secondary_btn {
+    border: solid 2px #AC3B61;
+}
+
+.tertiary_btn.default {
+    color: #AC3B61;
+}
+
+/* Buttons - Hover */
+
+.primary_btn.hover {
+    background-color: #943353;
+    color: #eee;
+    border: solid 2px #943353;
+
+}
+
+.secondary_btn.hover {
+    background-color: #AC3B6144;
+}
+
+.tertiary_btn.hover {
+    color: #943353;
+}
+
+
+.tertiary_btn.hover {
+    background-color: transparent;
+}
+
+/* Buttons - Active */
+
+.primary_btn.active {
+    background-color: #6b253c;
+    color: #eee;
+}
+
+.primary_btn.active {
+    border: solid 2px #6b253c;
+}
+
+.tertiary_btn.active {
+    color: #6b253c;
+}
+
+.tertiary_btn.active {
+    background-color: transparent;
+}
+
